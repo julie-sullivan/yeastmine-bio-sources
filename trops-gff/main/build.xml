@@ -1,4 +1,0 @@
-<project name="trops-gff-tasks" default="default" basedir=".">
-  <description>build trops-gff tasks</description>
-  <import file="../../../../imbuild/library.xml"/> 
-</project>

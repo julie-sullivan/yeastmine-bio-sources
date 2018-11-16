@@ -1,3 +1,63 @@
 rootProject.name = 'bio-sources'
 include ':bio-source-cglabrata-homologs'
 project(':bio-source-cglabrata-homologs').projectDir = new File(settingsDir, './cglabrata-homologs')
+include ':bio-source-cglabrata-homologs'
+project(':bio-source-cglabrata-homologs').projectDir = new File(settingsDir, './cglabrata-homologs')
+include ':bio-source-cgob-homologs'
+project(':bio-source-cgob-homologs').projectDir = new File(settingsDir, './cgob-homologs')
+include ':bio-source-chebi'
+project(':bio-source-chebi').projectDir = new File(settingsDir, './chebi')
+include ':bio-source-chebi-slim'
+project(':bio-source-chebi-slim').projectDir = new File(settingsDir, './chebi-slim')
+include ':bio-source-fungi-homologs'
+project(':bio-source-fungi-homologs').projectDir = new File(settingsDir, './fungi-homologs')
+include ':bio-source-go-function-summary'
+project(':bio-source-go-function-summary').projectDir = new File(settingsDir, './go-function-summary')
+include ':bio-source-go-slim'
+project(':bio-source-go-slim').projectDir = new File(settingsDir, './go-slim')
+include ':bio-source-goslimgeneric'
+project(':bio-source-goslimgeneric').projectDir = new File(settingsDir, './goslimgeneric')
+include ':bio-source-homolog-genes'
+project(':bio-source-homolog-genes').projectDir = new File(settingsDir, './homolog-genes')
+include ':bio-source-laevis-gff'
+project(':bio-source-laevis-gff').projectDir = new File(settingsDir, './laevis-gff')
+include ':bio-source-phenotype-summary'
+project(':bio-source-phenotype-summary').projectDir = new File(settingsDir, './phenotype-summary')
+include ':bio-source-pombe-homologs'
+project(':bio-source-pombe-homologs').projectDir = new File(settingsDir, './pombe-homologs')
+include ':bio-source-protein-half-life'
+project(':bio-source-protein-half-life').projectDir = new File(settingsDir, './protein-half-life')
+include ':bio-source-sgd'
+project(':bio-source-sgd').projectDir = new File(settingsDir, './sgd')
+include ':bio-source-sgd-complementation'
+project(':bio-source-sgd-complementation').projectDir = new File(settingsDir, './sgd-complementation')
+include ':bio-source-sgd-domains'
+project(':bio-source-sgd-domains').projectDir = new File(settingsDir, './sgd-domains')
+include ':bio-source-sgd-gff'
+project(':bio-source-sgd-gff').projectDir = new File(settingsDir, './sgd-gff')
+include ':bio-source-sgd-gff-utr'
+project(':bio-source-sgd-gff-utr').projectDir = new File(settingsDir, './sgd-gff-utr')
+include ':bio-source-sgd-protein-abundance'
+project(':bio-source-sgd-protein-abundance').projectDir = new File(settingsDir, './sgd-protein-abundance')
+include ':bio-source-sgd-protein-info'
+project(':bio-source-sgd-protein-info').projectDir = new File(settingsDir, './sgd-protein-info')
+include ':bio-source-sgd-protein-mods'
+project(':bio-source-sgd-protein-mods').projectDir = new File(settingsDir, './sgd-protein-mods')
+include ':bio-source-sgd-protein-ntermini'
+project(':bio-source-sgd-protein-ntermini').projectDir = new File(settingsDir, './sgd-protein-ntermini')
+include ':bio-source-sgd-protein-properties'
+project(':bio-source-sgd-protein-properties').projectDir = new File(settingsDir, './sgd-protein-properties')
+include ':bio-source-sgd-yetfasco'
+project(':bio-source-sgd-yetfasco').projectDir = new File(settingsDir, './sgd-yetfasco')
+include ':bio-source-sgd-yetfasco-gff'
+project(':bio-source-sgd-yetfasco-gff').projectDir = new File(settingsDir, './sgd-yetfasco-gff')
+include ':bio-source-spell-expression'
+project(':bio-source-spell-expression').projectDir = new File(settingsDir, './spell-expression')
+include ':bio-source-trops_chipseq_histone_mod'
+project(':bio-source-trops_chipseq_histone_mod').projectDir = new File(settingsDir, './trops_chipseq_histone_mod')
+include ':bio-source-trops-gff'
+project(':bio-source-trops-gff').projectDir = new File(settingsDir, './trops-gff')
+include ':bio-source-trops_rna_seq'
+project(':bio-source-trops_rna_seq').projectDir = new File(settingsDir, './trops_rna_seq')
+include ':bio-source-waern_23390610'
+project(':bio-source-waern_23390610').projectDir = new File(settingsDir, './waern_23390610')
