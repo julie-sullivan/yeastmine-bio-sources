@@ -3005,7 +3005,7 @@ public class SgdConverter extends BioDBConverter {
 	 * {@inheritDoc}
 	 */
 	@Override
-	public String getDataSetTitle(@SuppressWarnings("unused") int taxonId) {
+	public String getDataSetTitle(@SuppressWarnings("unused") String taxonId) {
 		return DATASET_TITLE;
 	}
 

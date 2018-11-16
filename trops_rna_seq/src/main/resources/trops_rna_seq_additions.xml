@@ -24,13 +24,13 @@
     <collection name="expscores" referenced-type="ExpressionScore" reverse-reference="experiments"/>
   </class>
   
-    <!--<class name="DevelopmentalStage" is-interface="true">
+   <class name="DevelopmentalStage" is-interface="true">
     <attribute name="condition" type="java.lang.String"/>
    </class>
    
     <class name="Tissue" is-interface="true">
     <attribute name="condition" type="java.lang.String"/>
-   </class>-->
+   </class>
   
   </classes>
   
